@@ -53,17 +53,35 @@ ul li a:hover{
 
 .main-section{
     margin-top: 7rem;
+    padding-bottom: 5rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 9em;
+    gap: 7em;
 }
 .left-box{
-    background-color: aqua;
-    width: 25rem;
-    
+    width: 25rem; 
+    margin-bottom: 1rem;  
 }
+.left-box p{
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 15em;
+    margin-bottom: 1.2rem;
+}
+.left-box h1{
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.left-box .anchor{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
 .right-box{
     width: 38rem;
     height: 70vh;
@@ -76,4 +94,35 @@ ul li a:hover{
     background: url(/photo1.png);
     background-size: 45vmax 30vmax;
     background-repeat: no-repeat;
+}
+.right-box .bottom-box{
+    background-color: #181719;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 21rem;
+    position: absolute;
+    top: 32rem;
+    right: 7.5rem;
+}
+.right-box .bottom-box span img{
+    height: 3em;
+    width: 3em;
+    margin: 1em 0.5em 0 1em;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.right-box .bottom-box .intro{
+    display: inline-block;
+    position: absolute;
+    top: 1.5em;
+    right: 9em;
+}
+.bottom-box .intro .p2{
+    color: #828282;
+}
+.bottom-box .intro-text{
+    color: white;
+    margin: 20px 80px 10px 30px;
+    border: none;
+    font-size: 24px;
+    text-transform: none;
 }
