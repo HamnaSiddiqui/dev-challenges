@@ -47,19 +47,33 @@ ul li a:hover{
     font-weight: 600;
 }
 
+
+ /********BODY******/
+
+
 .main-section{
-    margin-top: 9rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 9em;
 }
 .left-box{
     background-color: aqua;
     width: 25rem;
-    margin: 10em 0 20px 0;
+    
 }
 .right-box{
-    background-color: red;
-    width: 40rem;
+    width: 38rem;
+    height: 70vh;
+}
+.right-box .photo1{ 
+    height: 30vmax;
+    width: 47vmax;
+}
+.right-box .photo1{
+    background: url(/photo1.png);
+    background-size: 45vmax 30vmax;
+    background-repeat: no-repeat;
 }
