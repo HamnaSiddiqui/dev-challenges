@@ -184,3 +184,28 @@
         text-transform: none;
         font-family: 'Lora', sans-serif;
     }
+
+    @media (max-width: 50rem) {
+        body{
+        }
+        .main-section{
+            margin-top: 3rem;
+            flex-direction: column;
+        }
+        .left-box{
+            background-color: blue;
+            width: 40rem;
+        }
+        .left-box h1{
+            font-size: 2.7em;
+        }
+        .right-box{
+            width: 40rem;
+        }
+        .right-box .photo1{
+            background-size: 40rem 25rem;
+        }
+        .right-box .bottom-box{
+            top: 43rem;
+        }
+    }
