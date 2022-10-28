@@ -40,13 +40,20 @@
 
     }
     ul li a{
-        padding-right: 70px;
+        padding: 8px 0;
+        margin: 0 40px;
         color: white;
         text-decoration: none;
         font-size: 18px;
+        transition: 0.5s ease;
+        /* display: inline-block; */
     }
-    ul li a:hover{
-        text-decoration: underline;
+    ul li .act{
+        border-bottom: 2px solid white;
+        width: 100%;
+        transition: 0.5s ease;
+    }
+    ul li:hover{
         cursor: pointer;
         font-weight: 600;
     }
