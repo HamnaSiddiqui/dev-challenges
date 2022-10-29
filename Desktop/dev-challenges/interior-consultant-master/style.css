@@ -45,18 +45,17 @@
         color: white;
         text-decoration: none;
         font-size: 18px;
-        transition: 0.5s ease;
         /* display: inline-block; */
     }
-    ul li .act{
+    ul li a.act, a:hover{
+        cursor: pointer;
         border-bottom: 2px solid white;
         width: 100%;
-        transition: 0.5s ease;
     }
-    ul li:hover{
+    /* ul li:hover{
         cursor: pointer;
         font-weight: 600;
-    }
+    } */
 
     /*************Responsive Navbar**************/
 
@@ -160,13 +159,12 @@
         height: 70vh;
     }
     .right-box .photo1{ 
-        height: 30rem;
-        background-color: red;
-        width: 41rem;
+        height: 39rem;
+        width: 45rem;
     }
     .right-box .photo1{
         background: url(/photo1.png);
-        background-size: 60vw 45vw;
+        background-size: 50vw 40vw;
         background-repeat: no-repeat;
     }
     .right-box .bottom-box{
@@ -174,8 +172,8 @@
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         width: 21rem;
         position: absolute;
-        top: 32rem;
-        right: 7.5rem;
+        top: 40rem;
+        right: 7rem;
     }
     .right-box .bottom-box span img{
         height: 3em;
@@ -214,7 +212,6 @@
             margin: 0 0;
         }
         .left-box h1{
-            text-align: center;
             font-size: clamp(2em, 2vmax, 3em);
         }
         .right-box{
@@ -232,4 +229,12 @@
             font-size: 1.2rem;
             right: 0;
         }
+    }
+
+    .footer{
+        margin: 9rem 0 0 0;
+        text-align: center;
+    }
+    .footer a{
+        color: white;
     }
